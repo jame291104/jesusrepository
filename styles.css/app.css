@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,241,255,1) 0%, rgba(0,212,255,1) 63%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+article{
+display: inline-block;
+background-color: rgb(2,0,36);
+padding: 30px 30px 30px 30px;
+border-radius: 30px;
+
+}
+#foto{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border: solid white 5px;
+    border-radius: 50%;
+}
+h2{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+    font-size: 19px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    margin: 15px 0;
+}
+p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+.redes img{
+    width: 27px;
+    height: 27px;
+    object-fit: cover;
+    background-color: white;
+    padding: 6px;
+    border-radius: 50px;
+    margin-right: 6px;
+}
